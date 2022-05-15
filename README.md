@@ -21,3 +21,6 @@ Things that could be improved or added...
 
 For this code to compile on windows without changes, raylib needs to be installed to C:\raylib
 Get raylib from https://www.raylib.com/
+
+Game Running:
+![dasher_game_gif](https://user-images.githubusercontent.com/20566934/168456053-93a6c70f-a9a5-44f5-a919-572f1701971f.gif)
