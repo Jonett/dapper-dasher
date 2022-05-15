@@ -98,7 +98,7 @@ int main()
 
     Texture2D foreground = LoadTexture("textures/foreground.png");
     float foreground_pos_x{};
-
+    bool collision{};
     SetTargetFPS(60);
     while (!WindowShouldClose())
     {
@@ -194,7 +194,7 @@ int main()
             // update nebula animation frame and running time
             nebulea[i] = update_animation_data(nebulea[i], dT, 7);
         }
-        bool collision{};
+
         for (animation_data nebula : nebulea)
         {
             float padding{50};
